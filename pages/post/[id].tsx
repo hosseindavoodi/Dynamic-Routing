@@ -9,7 +9,8 @@ const Post = () => {
 
   return (
     <div>
-    <h2>{item?.text}</h2>
+    <h2>{item?.name}</h2>
+    <p>{item?.text}</p>
   </div>
   );
 }
